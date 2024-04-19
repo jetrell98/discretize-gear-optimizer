@@ -18,6 +18,7 @@ export default defineConfig({
       },
     },
     target: 'es2020',
+    sourcemap: true,
   },
   plugins: [react(), yamlImporter(), wasm()],
   worker: {
